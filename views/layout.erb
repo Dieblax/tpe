@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TPE</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/4.1.1/normalize.css">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script type="text/javascript" src="/script.js"></script>
+</head>
+<body>
+	<nav id="menu">
+		<a href="#">Le TPE</a>
+		<a href="#">Le groupe</a>
+		<a href="#">Sources</a>
+		<div id="menu-icon" class='container' onclick='animate(this)'>
+			<div class='bar1'></div>
+			<div class='bar2'></div>
+			<div class='bar3'></div>
+		</div>
+	</nav>
+	<div class='menu-screen'>
+	<div>
+		<h2>Le TPE</h2>
+		<ul>
+			<li><a href='#'> Introduction</a></li>
+			<li><a href='#'> L'amputation</a></li>
+			<li><a href='#'> L'évolution des prothèses</a></li>
+			<li><a href='#'> Des inégalités socio-économiques</a></li>
+			<li><a href='#'> Conclusion</a></li>
+		</ul>
+	</div>
+	
+	<div>
+		<h2>Le groupe</h2>
+		<ul>
+			<li><a href='#'> Présentation</a></li>
+			<li><a href='#'> Synthèses</a></li>
+		</ul>
+	</div>
+
+	<div>
+		<h2>Sources</h2>
+		<ul>
+			<li><a href='#'> Bibliographie</a></li>
+		</ul>
+	</div>
+
+</div>
+	<%= yield %>
+</body>
+</html>
