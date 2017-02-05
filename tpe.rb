@@ -23,6 +23,8 @@ get '/tpe' do
 		erb :tpe_inegalites, :layout => :layout
 	when 5
 		erb :tpe_conclusion, :layout => :layout
+	else 
+		redirect to '/'
 	end
 end
 

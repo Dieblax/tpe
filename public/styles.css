@@ -258,14 +258,17 @@ div.mask {
 	height: auto;
 	margin-top: 10%;
 	font-weight: 700;
-	font-size: 2em;
 	vertical-align: top;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 @media (max-width: 480px) {
 	.menu-screen.active div {
 		width: 100%;
 		margin-bottom: -50px;
+		font-size: 1.5em;
+		margin-top: 15%;
 	}
 }
 
@@ -273,18 +276,21 @@ div.mask {
 @media (min-width: 480px) and (max-width: 768px) {
 	.menu-screen.active div {
 		width: 80%;
+		font-size: 1.75em;
 	}
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
 	.menu-screen.active div {
 		width: 30%;
+		font-size: 2em;
 	}
 }
 
 @media (min-width: 1024px) {
 	.menu-screen.active div {
 		width: 30%;
+		font-size: 2em;
 	}
 }
 
@@ -311,8 +317,36 @@ div.mask {
 
 .header {
 	text-align: center;
-	padding: 80px 40px 40px 40px;
-	font-size: 1.5em;
+	;
+}
+
+@media (max-width: 480px) {
+	.header {
+		padding: 80px 30px 40px 30px;
+		font-size: 1.15em
+	}
+}
+
+
+@media (min-width: 480px) and (max-width: 768px) {
+	.header {
+		padding: 80px 40px 40px 40px;
+		font-size: 1.5em
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.header {
+		padding: 80px 40px 40px 40px;
+		font-size: 1.5em
+	}
+}
+
+@media (min-width: 1024px) {
+	.header {
+		padding: 80px 40px 40px 40px;
+		font-size: 1.5em
+	}
 }
 
 .body {
@@ -401,6 +435,8 @@ div.mask {
 	.pager a {
 		width: 15%;
 		background-size: 100%;
+		margin-left: 25px;
+		margin-right: 25px;
 	}
 }
 
@@ -408,6 +444,8 @@ div.mask {
 	.pager a {
 		width: 15%;
 		background-size: 80%;
+		margin-left: 25px;
+		margin-right: 25px;
 	}
 }
 
