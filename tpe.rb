@@ -1,5 +1,5 @@
 require 'sinatra'
-require 'sinatra/reloader' if development?
+#require 'sinatra/reloader' if development?
 
 configure do 
 	enable :sessions
@@ -52,4 +52,26 @@ end
 get '/conclusion' do
 	session[:page] = 5
 	redirect to '/tpe'
+end
+
+get '/sources' do 
+	erb :bibliographie, :layout => :layout
+end
+
+get '/presentation' do
+	erb :presentation, :layout => :layout
+end
+
+get '/synthese/:num' do |n|
+	case n.to_i
+	when 1
+		erb :synthese1, :layout => :layout
+	when 2
+		erb :synthese2, :layout => :layout
+	when 3
+		erb :synthese3, :layout => :layout
+	else
+		redirect to '/presentation'
+	end
+		
 end
