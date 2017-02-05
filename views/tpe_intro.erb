@@ -1,3 +1,5 @@
+<%= page = 1 %>
+
 <div class='header'>
 	<h1>TPE: Les prothèses</h1>
 </div>
@@ -6,23 +8,30 @@
 	<div class="separator"></div>
 	<h2>Introduction</h2>
 	<div class="separator"></div>
-	<p>Les hommes cherchent, depuis très longtemps,  à remplacer les membres, ou les organes, partiellement, totalement altérés ou absents en fabriquant des pièces ou appareils appelés prothèses. Elles ont pour but de redonner une autonomie à la personne et de soulager sa douleur. C’est pourquoi les hommes essayent de reproduire les membres aussi fidèlement que possible dans leur fonction, leur forme ou leur aspect extérieur.
-	<br><br>
+	<p>
+
+	Les hommes cherchent, depuis très longtemps,  à remplacer les membres, ou les organes, partiellement, totalement altérés ou absents en fabriquant des pièces ou appareils appelés prothèses. Elles ont pour but de redonner une autonomie à la personne et de soulager sa douleur. C’est pourquoi les hommes essayent de reproduire les membres aussi fidèlement que possible dans leur fonction, leur forme ou leur aspect extérieur.
+	</p><p>
 	En effet, les toutes premières prothèses datent de l’Egypte antique où des archéologues en ont retrouvé quelques-unes sur des momies, faites de cuir et de bois. Au fur et à mesure du temps, les hommes ont essayé de les améliorer en
 	prenant en compte les défauts et les risques provoqués par ces prothèses, à l’origine de nombreuses maladies et infections notamment pendant le Moyen-âge.
-	<br><br>
+	</p><p>
 	Aujourd’hui, il existe différentes causes qui amènent à l’utilisation de prothèses comme les maladies congénitales à l’origine de malformations mais aussi les amputations. Nous nous limiterons à ce dernier cas dans notre TPE. En effet, les amputations peuvent être dues à de nombreux facteurs, notamment les accidents, les maladies, ou encore les conflits géopolitiques, causant de nombreux blessés.
-	<br><br>
+	</p><p>
 	L’amputation n’est donc pas une chirurgie rarement pratiquée, cependant, l’accessibilité dans le temps et dans l’espace aux prothèses est inégale. On constate que les richesses, inégalement réparties entre les différents pays de notre planète, créent de fortes inégalités entre les sociétés concernant de nombreux sujets mais notamment l’accès aux soins et donc aux prothèses.
-	<br><br>
-	Mais pourrons-nous un jour réduire les inégalités dans le monde face à l’accès aux prothèses suite à une amputation ?
-	<br><br>
+	</p><p>
+	Mais pourrons-nous un jour réduire les inégalités dans le monde face à l’accès aux prothèses suite à une amputation?
+	</p><p>
 	Pour comprendre cela, il faut d’abord s’intéresser à une des causes principales de l’utilisation des prothèses : l’amputation. Ensuite il faut étudier l’évolution des prothèses dans le temps, et enfin les inégalités sociales, politiques et économiques qui sont à l’origine d’une disparité d’accès aux prothèses dans le monde.
  
-</p>
+	</p>
+	<br>
+	<div class="separator large"></div>
+	<br>
 </div>
 
 <div class="pager">
-	<a class="next">Prochain</a>
-	<a class="previous">Précédent</a>
+	<a class="next" href="/amputation"></a>
+	<% if (page > 1) %>
+		<a class="previous"></a>
+	<% end %>
 </div>
