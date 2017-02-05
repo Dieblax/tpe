@@ -223,7 +223,7 @@ div.mask {
 	background-color: transparent;
 	position: absolute;
 	width: 100%;
-	transition-delay: height 1.5s;
+	transition-delay: height 1.0s;
 	height: 0;
 	top: 0;
 }
@@ -236,7 +236,6 @@ div.mask {
 	top: 0;
 	height: 100%;
     bottom:0;
-    position:fixed;
     overflow-y:scroll;
     overflow-x:hidden;
 	position: fixed;
@@ -251,8 +250,6 @@ div.mask {
 
 .menu-screen.active div {
 	transition: 0.8s;
-	height: 30px;
-	width: 30px;
 	display: inline-block;
 	opacity: 1;
 	height: auto;
@@ -300,11 +297,13 @@ div.mask {
 
 .menu-screen.active div ul {
 	list-style: none;
+	padding: 0;
 }
 
 .menu-screen.active div a {
 	text-decoration: none;
 	color: #aaa;
+	margin: auto;
 }
 
 .menu-screen.active div a:hover {
