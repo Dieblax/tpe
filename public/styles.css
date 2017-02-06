@@ -415,7 +415,7 @@ div.mask {
 .pager a {
 	height: 100%;
 	background-color: white;
-	display: table;
+	display: table-cell;
 	cursor: pointer;
 	vertical-align: middle;
 	background-repeat: no-repeat;
