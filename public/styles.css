@@ -412,8 +412,9 @@ div.mask {
 	line-height: 10vh;
 	display: table;
 }
+
 .pager a {
-	height: 100%;
+	height: 10vh;
 	background-color: white;
 	display: table-cell;
 	cursor: pointer;
@@ -422,7 +423,8 @@ div.mask {
 	background-position: center;
 	position: relative;
 	z-index: 0;
-
+	margin-left: 20px;
+	margin-right: 20px; 
 }
 
 .next {
