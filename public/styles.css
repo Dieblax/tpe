@@ -148,7 +148,7 @@ div.mask {
 	left: 0;
 	right: 0;
 	position: absolute;
-	background-color: rgba(0,0,0,0.2);
+	background-color: rgba(0,0,0,0.3);
 	z-index: -2;
 }
 
@@ -477,10 +477,61 @@ div.mask {
 	background-image: url('left-arrow-highlight.gif');
 }
 
+.body p {
+	line-height: 1.5;
+}
+
 .body .img {
-	background-color: #ddd;
+	background-color: transparent;
 	width: auto;
-	height: 450px;
+	height: auto;
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
+
+.img img {
+	width: 100%;
+}
+
+.body .source {
+	font-size: 1em;
+	text-decoration: underline;
+	font-weight: bold;
+	margin-top: -40px;
+	text-align: center;
+}
+
+.body .table {
+	background-color: transparent;
+}
+
+.body .table table tr td {
+	padding: 25px;
+	text-align: center;
+	background-color: transparent;
+}
+
+.body .table table tr:first-child td {
+	background-color: #3FA9F5;
+	text-align: center;
+}
+
+.body .table table tr:first-child td:first-child {
+	background-color: #3FA9F5;
+}
+
+.body .table table tr td:first-child {
+	background-color: rgba(0,0,0,0.25);
+	text-align: left;
+	padding: 25px 20px;
+}
+
+img.small {
+	width: 80%;
+}
+
+img.xsmall {
+	width: 60%;
+}
+
+
