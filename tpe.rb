@@ -23,6 +23,8 @@ get '/tpe' do
 		erb :tpe_inegalites, :layout => :layout
 	when 5
 		erb :tpe_conclusion, :layout => :layout
+	when 6
+		erb :lexique, :layout => :layout
 	else 
 		redirect to '/'
 	end
@@ -51,6 +53,11 @@ end
 
 get '/conclusion' do
 	session[:page] = 5
+	redirect to '/tpe'
+end
+
+get '/lexique' do
+	session[:page] = 6
 	redirect to '/tpe'
 end
 

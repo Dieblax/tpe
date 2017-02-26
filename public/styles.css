@@ -1,5 +1,5 @@
 * {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Raleway', 'Helvetica', sans-serif;
 }
 
 nav {
@@ -192,7 +192,7 @@ div.mask {
 }
 
 .mask div span {
-	font-weight: 900;
+	font-weight: 500;
     font-size: larger;
 }
 
@@ -293,6 +293,7 @@ div.mask {
 
 .menu-screen.active div h2 {
 	color: #666;
+	font-weight: 500;
 }
 
 .menu-screen.active div ul {
@@ -304,6 +305,7 @@ div.mask {
 	text-decoration: none;
 	color: #aaa;
 	margin: auto;
+	font-weight: 500;
 }
 
 .menu-screen.active div a:hover {
@@ -574,6 +576,11 @@ h4 {
 	margin-left: 20px;
 	list-style-type: circle;
 	display: list-item;
+}
+
+.bold {
+	font-weight: 700;
+	color: black;
 }
 
 
